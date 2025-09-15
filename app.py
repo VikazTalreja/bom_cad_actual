@@ -1,6 +1,7 @@
 # app.py - REPLACE the STEP file processing section
 import tempfile
 import os
+import streamlit as st
 
 # MODIFY the STEP processing part:
 with st.spinner("Processing files..."):
