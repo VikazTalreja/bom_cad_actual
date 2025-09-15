@@ -218,7 +218,9 @@ def _create_basic_component(entity: Dict) -> Dict:
                 'id': entity['id'],
                 'type': entity['type'],
                 'part_number': param[:50],  # Truncate if too long
-                'description': f"{entity['type']} component"
+                'description': f"{entity['type']} component",
+                'footprint': '',  # Add default empty footprint
+                'context': ''     # Add default empty context
             }
     
     return None
